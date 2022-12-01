@@ -1,4 +1,4 @@
-import 'package:ayopramuka/screens/index/index_page.dart';
+import 'package:geektest/screens/index/index_page.dart';
 import 'package:get/get.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
@@ -17,7 +17,7 @@ class SplashController extends GetxController {
     appName.value = packageInfo.appName;
     appVersion.value = packageInfo.version;
 
-    Future.delayed(Duration(seconds: 1)).then((_) async {
+    Future.delayed(Duration(seconds: 3)).then((_) async {
       Get.offAllNamed(IndexPage.routeName);
     });
   }

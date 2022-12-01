@@ -1,5 +1,6 @@
-import 'package:ayopramuka/utils/sizes.dart';
-import 'package:ayopramuka/utils/theme.dart';
+import 'package:geektest/utils/colors.dart';
+import 'package:geektest/utils/sizes.dart';
+import 'package:geektest/utils/theme.dart';
 import 'package:flutter/cupertino.dart';
 
 class TextStyles {
@@ -33,7 +34,7 @@ class TextStyles {
     fontSize: FontSize.s12,
   );
   static TextStyle greyLabelValueStyle = TextStyle(
-    color: AppColor.blackgrey,
+    color: AppColor.fontDarkGrey,
     height: 1.7,
     fontSize: FontSize.s12,
     fontWeight: FontWeight.w500,

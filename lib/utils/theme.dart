@@ -1,7 +1,5 @@
-// ignore_for_file: deprecated_member_use
-
-import 'package:ayopramuka/constants/text_style.dart';
 import 'package:flutter/material.dart';
+import 'package:geektest/utils/colors.dart';
 
 List<BoxShadow> shadow = <BoxShadow>[
   BoxShadow(
@@ -59,70 +57,9 @@ TextStyle get textStyle14 {
       color: AppColor.darkGrey, fontSize: 14, fontWeight: FontWeight.bold);
 }
 
-class AppColor {
-  static const Color primary = Color(0xff2A794E);
-  static const Color primaryDark = Color(0xff205A3A);
-  static const Color blue = Color(0xff058CD8);
-  static const Color red = Color(0xffDE4040);
-  static const Color lightpurple = Color(0xffBB87CA);
-  static const Color secondary = Color(0xff4E312A);
-  static const Color darkGrey = Color(0xff1657786);
-  static const Color lightGrey = Color(0xffECECEC);
-  static const Color extraLightGrey = Color(0xffE1E8ED);
-  static const Color extraExtraLightGrey = Color(0xFFFAFAFA);
-  static const Color lightGreyBackground = Color(0xFFF1F1F1);
-  static const Color white = Color(0xFFffffff);
-  static const Color black = Color(0xFF000000);
-  static const Color blackTitle = Color(0xFF5E5E5E);
-  static const Color blackSubtitle = Color(0xFF878787);
-  static const Color blackgrey = Color(0xFF555353);
-  static const Color grey = Colors.grey;
-
-  /// shadow
-  static const Color lightGreyShadow = Color(0xFFD6D6D6);
-
-  static const MaterialColor purple = MaterialColor(
-    0xff2A794E,
-    <int, Color>{
-      50: Color(0xff2A794E),
-      100: Color(0xff2A794E),
-      200: Color(0xff2A794E),
-      300: Color(0xff2A794E),
-      400: Color(0xff2A794E),
-      500: Color(0xff2A794E),
-      600: Color(0xff2A794E),
-      700: Color(0xff2A794E),
-      800: Color(0xff2A794E),
-      900: Color(0xff2A794E),
-    },
-  );
-  static Color fromHex(String hexString) {
-    final buffer = StringBuffer();
-    if (hexString.length == 6 || hexString.length == 7) buffer.write('ff');
-    buffer.write(hexString.replaceFirst('#', ''));
-    return Color(int.parse(buffer.toString(), radix: 16));
-  }
-
-  static const MaterialColor brown = MaterialColor(
-    0xff4E312A,
-    <int, Color>{
-      50: Color(0xff4E312A),
-      100: Color(0xff4E312A),
-      200: Color(0xff4E312A),
-      300: Color(0xff4E312A),
-      400: Color(0xff4E312A),
-      500: Color(0xff4E312A),
-      600: Color(0xff4E312A),
-      700: Color(0xff4E312A),
-      800: Color(0xff4E312A),
-      900: Color(0xff4E312A),
-    },
-  );
-}
-
 class AppTheme {
   static final ThemeData apptheme = ThemeData(
-    primarySwatch: AppColor.purple,
+    //primarySwatch: AppColor.primary,
     fontFamily: 'Poppins',
     androidOverscrollIndicator: AndroidOverscrollIndicator.stretch,
 
@@ -178,7 +115,6 @@ class AppTheme {
     textButtonTheme: TextButtonThemeData(
         style: TextButton.styleFrom(
       primary: AppColor.primary, // This is a custom color variable
-      textStyle: kStylePopMed14,
     )),
     textTheme: TextTheme(
       bodyText1: TextStyle(),

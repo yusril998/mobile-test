@@ -1,4 +1,4 @@
-import 'package:ayopramuka/config/config_apps.dart';
+import 'package:geektest/config/config_apps.dart';
 
 class NetworkHelper {
   static String baseUrl = ConfigApps.instance.baseUrl;

@@ -1,14 +1,14 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:ayopramuka/config/config_apps.dart';
-import 'package:ayopramuka/constants/enpoint.dart';
-import 'package:ayopramuka/my_app.dart';
-import 'package:ayopramuka/utils/preferences.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:geektest/config/config_apps.dart';
+import 'package:geektest/constants/enpoint.dart';
+import 'package:geektest/my_app.dart';
+import 'package:geektest/utils/preferences.dart';
 
 class MyHttpoverrides extends HttpOverrides {
   @override

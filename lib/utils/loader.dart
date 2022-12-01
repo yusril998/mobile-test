@@ -1,5 +1,6 @@
-import 'package:ayopramuka/utils/sizes.dart';
-import 'package:ayopramuka/utils/theme.dart';
+import 'package:geektest/utils/colors.dart';
+import 'package:geektest/utils/sizes.dart';
+import 'package:geektest/utils/theme.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';

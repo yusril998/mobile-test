@@ -1,4 +1,4 @@
-import 'package:ayopramuka/constants/network_helper.dart';
+import 'package:geektest/constants/network_helper.dart';
 import 'package:dio/dio.dart';
 
 class DioOptions {

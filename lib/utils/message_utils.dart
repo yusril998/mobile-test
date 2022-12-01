@@ -1,5 +1,6 @@
-import 'package:ayopramuka/utils/sizes.dart';
-import 'package:ayopramuka/utils/theme.dart';
+import 'package:geektest/utils/colors.dart';
+import 'package:geektest/utils/sizes.dart';
+import 'package:geektest/utils/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -25,7 +26,7 @@ class MessageUtils {
       margin: EdgeInsets.all(Sizes.s20),
       borderRadius: 10,
       duration: Duration(seconds: 2),
-      backgroundColor: AppColor.blackgrey,
+      backgroundColor: AppColor.grayedBackground,
       snackPosition: SnackPosition.BOTTOM,
     ));
   }

@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:ayopramuka/config/config_apps.dart';
-import 'package:ayopramuka/constants/enpoint.dart';
-import 'package:ayopramuka/my_app.dart';
-import 'package:ayopramuka/utils/preferences.dart';
+import 'package:geektest/config/config_apps.dart';
+import 'package:geektest/constants/enpoint.dart';
+import 'package:geektest/my_app.dart';
+import 'package:geektest/utils/preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -26,12 +26,7 @@ void main() {
   );
   runZonedGuarded(() async {
     WidgetsFlutterBinding.ensureInitialized();
-    ByteData data =
-        await PlatformAssetBundle().load('assets/ca/lets-encrypt-r3.pem');
-    SecurityContext.defaultContext
-        .setTrustedCertificatesBytes(data.buffer.asUint8List());
     Preferences().init();
-
     SystemChrome.setPreferredOrientations(
             [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown])
         .then((_) {

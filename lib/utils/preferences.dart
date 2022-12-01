@@ -1,5 +1,5 @@
-import 'package:ayopramuka/config/config_apps.dart';
-import 'package:ayopramuka/config/directory_platform.dart';
+import 'package:geektest/config/config_apps.dart';
+import 'package:geektest/config/directory_platform.dart';
 import 'package:hive/hive.dart';
 
 class Preferences {

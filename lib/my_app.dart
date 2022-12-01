@@ -1,6 +1,6 @@
-import 'package:ayopramuka/screens/splash_page.dart';
-import 'package:ayopramuka/utils/routes.dart';
-import 'package:ayopramuka/utils/theme.dart';
+import 'package:geektest/screens/splash_page.dart';
+import 'package:geektest/utils/routes.dart';
+import 'package:geektest/utils/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

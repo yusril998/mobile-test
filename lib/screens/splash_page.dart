@@ -1,10 +1,10 @@
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:ayopramuka/constants/directory_asset.dart';
-import 'package:ayopramuka/controllers/splash_controller.dart';
-import 'package:ayopramuka/utils/sizes.dart';
-import 'package:ayopramuka/utils/theme.dart';
 import 'package:flutter/material.dart';
+import 'package:geektest/constants/directory_asset.dart';
+import 'package:geektest/controllers/splash_controller.dart';
+import 'package:geektest/utils/colors.dart';
+import 'package:geektest/utils/sizes.dart';
 import 'package:get/get.dart';
 
 class SplashPage extends StatelessWidget {
@@ -29,7 +29,7 @@ class SplashPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(200),
                   boxShadow: <BoxShadow>[
                     BoxShadow(
-                      color: AppColor.extraLightGrey,
+                      color: AppColor.bacground,
                       blurRadius: 10,
                       offset: const Offset(0.4, 2),
                     ),

@@ -1,4 +1,4 @@
-package id.ayonu.app
+package id.geek.test
 
 import io.flutter.embedding.android.FlutterActivity
 

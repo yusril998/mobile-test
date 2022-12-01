@@ -2,10 +2,10 @@
 
 import 'dart:async';
 
-import 'package:ayopramuka/constants/network_helper.dart';
-import 'package:ayopramuka/services/repository/dio_options.dart';
-import 'package:ayopramuka/utils/preferences.dart';
-import 'package:ayopramuka/utils/utility.dart';
+import 'package:geektest/constants/network_helper.dart';
+import 'package:geektest/services/repository/dio_options.dart';
+import 'package:geektest/utils/preferences.dart';
+import 'package:geektest/utils/utility.dart';
 import 'package:dio/dio.dart';
 
 class Repository {
