@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>165075871568-d2s4h30nillv7blh1rukh8j04smer5nl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.165075871568-d2s4h30nillv7blh1rukh8j04smer5nl</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>165075871568-7eni45i0aqq7chdcj1orcdhklh5nvhmk.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDgoVMHVdEVC42V1w3EhEn5PhKVtA_-snc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>165075871568</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>id.ayosatu.pramuka</string>
+	<key>PROJECT_ID</key>
+	<string>ayopramukalive</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ayopramukalive.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:165075871568:ios:19acc1e158d7dc1313ee55</string>
+</dict>
+</plist>
