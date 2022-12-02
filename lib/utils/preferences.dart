@@ -3,7 +3,7 @@ import 'package:geektest/config/directory_platform.dart';
 import 'package:hive/hive.dart';
 
 class Preferences {
-  static const HIVE_BOX = "AyoPramukaBox";
+  static const HIVE_BOX = "GeekTestBox";
   static const HIVE_WELCOME_PAGE = "FirstApp";
   static const HIVE_GUEST = "GuestApp";
   static const HIVE_USER_ID = "UserId";

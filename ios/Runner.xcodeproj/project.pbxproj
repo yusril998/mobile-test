@@ -542,7 +542,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = AyoPramuka;
+				APP_DISPLAY_NAME = GeekTest;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
@@ -634,13 +634,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "AyoPramuka Dev";
+				APP_DISPLAY_NAME = "GeekTest Dev";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 45Y5STCCJW;
-				DYNAMIC_LINK = "https://ayopramuka.page.link";
+				DYNAMIC_LINK = "https://GeekTest.page.link";
 				ENABLE_BITCODE = NO;
 				FLUTTER_TARGET = lib/main_dev.dart;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -655,7 +655,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 1.4.4;
-				PRODUCT_BUNDLE_IDENTIFIER = id.ayopramuka.app;
+				PRODUCT_BUNDLE_IDENTIFIER = id.GeekTest.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REVERSED_CLIENT_ID = "com.googleusercontent.apps.62473269316-fpc9hjrrm3rjkbdtj06keseni45v6o5f";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -719,13 +719,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "AyoPramuka  Dev";
+				APP_DISPLAY_NAME = "GeekTest  Dev";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 45Y5STCCJW;
-				DYNAMIC_LINK = "https://ayopramuka.page.link";
+				DYNAMIC_LINK = "https://GeekTest.page.link";
 				ENABLE_BITCODE = NO;
 				FLUTTER_TARGET = lib/main_dev.dart;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -740,7 +740,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 1.4.4;
-				PRODUCT_BUNDLE_IDENTIFIER = id.ayopramuka.app;
+				PRODUCT_BUNDLE_IDENTIFIER = id.GeekTest.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REVERSED_CLIENT_ID = "com.googleusercontent.apps.62473269316-fpc9hjrrm3rjkbdtj06keseni45v6o5f";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -802,13 +802,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = "AyoPramuka  Dev";
+				APP_DISPLAY_NAME = "GeekTest  Dev";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 45Y5STCCJW;
-				DYNAMIC_LINK = "https://ayopramuka.page.link";
+				DYNAMIC_LINK = "https://GeekTest.page.link";
 				ENABLE_BITCODE = NO;
 				FLUTTER_TARGET = lib/main_dev.dart;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -823,7 +823,7 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 1.4.4;
-				PRODUCT_BUNDLE_IDENTIFIER = id.ayopramuka.app;
+				PRODUCT_BUNDLE_IDENTIFIER = id.GeekTest.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REVERSED_CLIENT_ID = "com.googleusercontent.apps.62473269316-fpc9hjrrm3rjkbdtj06keseni45v6o5f";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
@@ -941,7 +941,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = AyoPramuka;
+				APP_DISPLAY_NAME = GeekTest;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
@@ -979,7 +979,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				APP_DISPLAY_NAME = AyoPramuka;
+				APP_DISPLAY_NAME = GeekTest;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
